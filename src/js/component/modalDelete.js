@@ -36,7 +36,7 @@ export const ModalDelete = ({ setModal, stateModal, contact }) => {
                             <button type="button" className="btn btn-secondary" data-dismiss="modal"
                                 onClick={handleDelete}
                             >
-                                Si eso es !</button>
+                                Lo borras !</button>
                         </div>
                     </div>
                 </div>

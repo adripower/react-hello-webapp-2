@@ -32,27 +32,32 @@ export const AddContact = () => {
         <div className="form">
             <h1 className="title">Añadir un nuevo contacto</h1>
             <form onSubmit={handleSubmit} >
-                <div className="mb-4">
+                <br></br>
+                <div className="m-4 fs-5">
                     <label htmlFor="exampleInputName" className="form-label"> Name</label>
                     <input type="text" className="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter full name" onChange={(event) => { setName(event.target.value) }} />
                 </div>
-                <div className="mb-4">
+                <div className="m-4 fs-5">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={(event) => { setEmail(event.target.value) }} />
                 </div>
-                <div className="mb-4">
+                <div className="m-4 fs-5">
                     <label htmlFor="exampleInputPhone" className="form-label">Phone</label>
                     <input type="phone" className="form-control" id="exampleInputPhone" placeholder="Enter phone" onChange={(event) => { setPhone(event.target.value) }} />
                 </div>
-                <div className="mb-4">
+                <div className="m-4 fs-5">
                     <label htmlFor="exampleInputAddress" className="form-label">Address</label>
                     <input type="text" className="form-control" id="exampleInputAddress" aria-describedby="addressHelp" placeholder="Enter address" onChange={(event) => { setAddress(event.target.value) }} />
+                
                 </div>
-                <button type="submit" className="save btn btn-custom-violet">guardar</button>
+                <button type="submit" className="btn btn-primary col-12 m-2">guardar</button>
 
             </form>
+
+
+            {/* enlace a la pagina principal */}
             <Link to="/">
-                <span className="mb-0 fs-3">ir atras a contactos</span>
+                <span className=" m-4 fs-4">ir atras a contactos</span>
             </Link>
         </div>
         </div>

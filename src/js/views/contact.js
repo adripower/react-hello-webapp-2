@@ -21,7 +21,7 @@ export const Contact = () => {
  		<div>
  			<div className="boton-contact">
  				<Link to="/addcontact">
- 					<button className="btn btn-custom-violet">Añade un contacto</button>
+ 					<button className="btn btn-primary">Añade un contacto</button>
  				</Link>
  			</div>
  			{

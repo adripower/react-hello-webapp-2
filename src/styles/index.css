@@ -3,7 +3,8 @@
 */
 .form {
     width: auto;
-    margin: 50px;
+    margin-top: 60px;
+    
 }
 .title {
     display: flex;
@@ -13,34 +14,16 @@
 .save {
     width: 100%;
 }
-.btn-custom-violet {
-    color: #030529; 
-    background-color:#2be2ca; 
-    border-color: #2b6be2;
-  }
 
-/* CONTACT */
-.boton-contact {
-    display: flex;
-    justify-content: end;
-    margin-right: 30px;
-    margin-top: 30px;
-}
 
-/*CONTACT CARD*/
+
 .card {
     margin-right: 30px;
     margin-left: 30px; 
     display: flex;
     align-content: stretch;
 }
-.description {
-    width: auto;
-    display: inline-block;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-}
+
 
 .edit-button {
     display: flex;
@@ -52,6 +35,22 @@
 }
 img {
     width: 200px;
-    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    height: auto; 
    
   }
+
+
+.boton-contact {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.description {
+    width: auto;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
