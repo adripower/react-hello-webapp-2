@@ -50,8 +50,8 @@
 .delete{
     margin-right: 40px;
 }
-.img{
-height: 100px;
-width: 100px;
-
-}
+img {
+    width: 200px;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    aspect-ratio: 4/3; /* Define la proporción original de la imagen */
+  }

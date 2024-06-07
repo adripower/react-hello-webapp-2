@@ -23,7 +23,7 @@ export const EditContact = () => {
                 'Content-Type': 'application/json'
             }
         }
-        fetch(`https://playground.4geeks.com/contact/agendas/marta992/contacts/${contact.id}`, config)
+        fetch(`https://playground.4geeks.com/contact/agendas/adri123/contacts/${contact.id}`, config)
             .then((response) => response.json())
             .then((data) => {
                 actions.getAllContacts()
