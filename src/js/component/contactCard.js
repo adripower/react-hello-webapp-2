@@ -25,7 +25,7 @@ export const ContactCard = ({ contact, setModal }) => {
 					<span className="delete" onClick={() => {actions.setContactToDelete(contact)
 					setModal({show:"block"})}}><i className="fas fa-trash"/></span>
 				</div>
-				<img src="https://img.freepik.com/psd-gratis/representacion-3d-avatar_23-2150833548.jpg?w=740&t=st=1717747957~exp=1717748557~hmac=4d9c37726a46e3d3b313e2a609385968f352fba0c8d443b834c79cc1c7143f55" alt="imagen de un avatar " />
+				<img src="https://img.freepik.com/psd-gratis/representacion-3d-avatar_23-2150833548.jpg?w=740&t=st=1717747957~exp=1717748557~hmac=4d9c37726a46e3d3b313e2a609385968f352fba0c8d443b834c79cc1c7143f55"width="150" height="150"  alt="imagen de un avatar " />
 				<div className="description">
 					<h4 className="card-title">{contact?.name}</h4>
 					<h6 className="location-text mb-2 text-body-secondary"><i className="fas fa-map-marker-alt" /> {contact?.address}</h6>
