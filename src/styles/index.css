@@ -14,9 +14,9 @@
     width: 100%;
 }
 .btn-custom-violet {
-    color: #fff; 
-    background-color:#8a2be2; 
-    border-color: #8a2be2;
+    color: #030529; 
+    background-color:#2be2ca; 
+    border-color: #2b6be2;
   }
 
 /* CONTACT */
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: end;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /*CONTACT CARD*/
@@ -53,5 +53,5 @@
 img {
     width: 200px;
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-    aspect-ratio: 4/3; /* Define la proporción original de la imagen */
+   
   }
